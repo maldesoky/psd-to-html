@@ -1,0 +1,774 @@
+/* Start Global Rules */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* End Global Rules */
+
+
+/* Start Body */
+
+body {
+    background-color: #f7f7f7;
+}
+
+.nav-icons {
+    position: fixed;
+    top: 300px;
+    right: 30px;
+}
+
+.nav-icons i {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.nav-icons .icon1 {
+    background-color: darkgreen;
+}
+
+.nav-icons .icon2 {
+    background-color: #3b5998;
+}
+
+.nav-icons .icon3 {
+    background-color: #1da1f2;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* End Body */
+
+
+/* Start Header */
+
+.header {
+    margin: 20px;
+}
+
+.logo {
+    float: right;
+    margin-right: 30px;
+}
+
+.header-form {
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.header-form input {
+    padding: 10px;
+}
+
+.header-form button {
+    margin-top: 5px;
+    padding: 5px 20px;
+    color: white;
+    font-weight: 600;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.header-form button:hover {
+    color: black;
+    background-color: white;
+}
+
+/* End Header */
+
+
+/* Start Navbar */
+
+.navbar ul {
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 67px;
+    margin: -3px;
+    border-bottom: 5px solid black;
+}
+
+.li-1 {
+    background-color: #3282C9;
+}
+
+.li-1:hover {
+    background-color: rgb(15, 85, 146);
+}
+
+.li-2 {
+    background-color: #8CBE21;
+}
+
+.li-2:hover {
+    background-color: rgb(98, 134, 19);    
+}
+
+.li-3 {
+    background-color: #F19F31;
+}
+
+.li-3:hover {
+    background-color: rgb(170, 109, 29);
+}
+
+.li-4 {
+    background-color: #B531BB;
+}
+
+.li-4:hover {
+    background-color: rgb(116, 26, 121);
+}
+
+.li-5 {
+    background-color: #30B7CB;
+}
+
+.li-5:hover {
+    background-color: rgb(26, 104, 116);
+}
+
+.navbar ul li.active {
+    border-bottom: 5px solid #F00;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar ul li a:visited {
+    color: white;
+}
+
+/* End Navbar */
+
+
+/* Start Hotels Section */
+
+.hotel-form {
+    width: 40%;
+    float: right;
+}
+
+.hotel-form ul {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 52px;
+    width: 350px;
+}
+
+.hotel-form ul li {
+    display: inline-block;
+    list-style: none;
+    color: white;
+    background-color: #09598f;
+    padding: 10px 21px;
+    border-radius: 5px 5px 0 0;
+}
+
+.hotel-form ul li:first-child {
+    background-color: #181818;
+}
+
+.hotel-form .reg-form {
+    background-color: #181818;
+    color: white;
+    margin-left: 59px;
+    margin-right: 81px;
+    padding: 10px 10px 30px 10px;
+    line-height: 30px;
+    border-radius: 0 0 5px 5px;
+}
+
+.hotel-form .reg-form input[name='destination'] {
+    width: 220px;
+}
+
+.hotel-form .reg-form input[name='date'] {
+    width: 130px;
+}
+
+.hotel-form .reg-form select {
+    padding: 2px 10px;
+}
+
+.hotel-form .reg-form button {
+    margin-left: 30px;
+    padding: 5px 10px;
+    color: white;
+    background-color: #09598f;
+    border: 1px solid #09598f;
+}
+
+.hotel-form .reg-form button:hover {
+    color: #09598f;
+    background-color: white;
+}
+
+.hotel-offers {
+    width: 60%;
+    margin-top: 30px;
+    float: right;
+    margin-left: -30px;
+}
+
+.hotel-offers .offers-text {
+    width: 50%;
+    float: right;
+}
+
+.hotel-offers .offers-text h2 span {
+    color: white;
+    background-color: #8CBE21;
+    padding: 0 5px;
+    margin-right: 0;
+}
+
+.hotel-offers .offers-text h2 {
+    color: #8CBE21;
+    margin: 30px 0 10px 0;
+    font-size: 60px;
+}
+
+.hotel-offers .offers-text button {
+    padding: 10px;
+    margin: 20px 0 0 100px;
+    color: white;
+    background-color: #F19F31;
+    border: 1px solid #F19F31;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px; 
+}
+
+.hotel-offers .offers-text button:hover {
+    color: #F19F31;
+    background-color: white;
+}
+
+.hotel-offers .offers-img {
+    width: 50%;
+    float: left;
+}
+
+.hotel-offers .offers-img img {
+    width: 100%;
+}
+
+/* End Hotels Section */
+
+
+/* Start Travel Section */
+
+.hot-travel {
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 55px;
+    margin-right: -59px;
+    float: right;
+}
+
+.hot-travel h2 {
+    margin: 20px 139px 20px 0;
+    color: white;
+    background-color: #3282C9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.travel-info {
+    margin: 20px 139px 20px 0;
+}
+
+.travel-info img {
+    width: 100px;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.travel-info div {
+    width: 50%;
+    float: right;
+}
+
+.travel-info i {
+    margin-top: 10px;
+    color: #8CBE21;
+}
+
+.hot-travel hr {
+    display: block;
+    border-width: 1px;
+    color: #181818;
+    width: 300px;
+    margin-right: 130px; 
+}
+
+.popular-places {
+    width: 60%;
+    float: right;
+    margin-top: 62px;
+}
+
+.popular-places h2 {
+    color: #3282C9;
+    margin-bottom: 30px;
+}
+
+.popular-places img {
+    float: right;
+    margin-left: 20px;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.popular-places .places p {
+    line-height: 20px;
+}
+
+.popular-places .places span {
+    font-weight: bold;
+}
+
+.popular-places i {
+    margin-top: 10px;
+    color: #F19F31;
+}
+
+.popular-places hr {
+    display: block;
+    border-width: 1px;
+    color: #181818;
+    width: 650px;
+    margin-bottom: 30px;
+}
+
+/* End Travel Section */
+
+
+/* Start Footer */
+
+footer {
+    background-color: #181818;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* End Footer */
+
+
+/* Start About Us Page */
+
+.hotel-offers2 {
+    width: 100%;
+}
+
+.hotel-offers2 .offers-text {
+    width: 50%;
+    float: right;
+    margin-right: 85px;
+}
+
+.hotel-offers2 .offers-text h2 span {
+    color: white;
+    background-color: #8CBE21;
+    padding: 0 5px;
+    margin-right: 0;
+}
+
+.hotel-offers2 .offers-text h2 {
+    color: #8CBE21;
+    margin: 30px 0 10px 80px;
+    font-size: 50px;
+}
+
+.hotel-offers2 .offers-text h3 {
+    margin-left: 80px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.hotel-offers2 .offers-text p {
+    margin-left: 80px;
+    line-height: 30px;
+}
+
+.hotel-offers2 .offers-text button {
+    padding: 10px;
+    margin: 20px 0 0 80px;
+    color: white;
+    background-color: #F19F31;
+    border: 1px solid #F19F31;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hotel-offers2 .offers-text button:hover {
+    color: #F19F31;
+    background-color: white;
+}
+
+.hotel-offers2 .offers-img {
+    width: 350px;
+    float: right;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.hotel-offers2 .offers-img img {
+    width: 100%;
+}
+
+.about-us {
+    width: 60%;
+    float: right;
+    margin-top: 62px;
+}
+
+.about-us h2 {
+    color: #3282C9;
+    margin-bottom: 30px;
+}
+
+.about-us img {
+    float: right;
+    margin-left: 20px;
+    width: 200px;
+}
+
+.about-us .places p {
+    line-height: 20px;
+}
+
+.about-us .places span {
+    font-weight: bold;
+}
+
+.about-us .places .links {
+    margin: 20px 0;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px;
+    column-gap: 50px;
+    column-rule: 2px solid #ccc;
+}
+
+.about-us .places .links i {
+    color: #F19F31;
+}
+
+.about-us .places .links a {
+    color: #F19F31;
+}
+
+/* End About Us Page */
+
+
+/* Start Our Tours Page */
+
+.our-tours {
+    width: 60%;
+    float: right;
+    margin-top: 62px;
+}
+
+.our-tours h2 {
+    color: #3282C9;
+    margin-bottom: 30px;
+}
+
+.our-tours .places .places1 {
+    width: 60%;
+    float: right;    
+}
+
+.our-tours .places .places1 img {
+    float: right;
+    margin-left: 20px;
+    width: 200px;
+}
+
+.our-tours .places .places2 {
+    width: 40%;
+    float: right;
+    padding-right: 20px;
+}
+
+.our-tours .places p {
+    line-height: 20px;
+}
+
+.our-tours .places span {
+    font-weight: bold;
+}
+
+.our-tours .places .places2 i {
+    color: #F19F31;
+}
+
+.our-tours .places .places2 a {
+    color: #F19F31;
+}
+
+/* End Our Tours Page */
+
+
+/* Start Contacts Page */
+
+.contact-form {
+    width: 60%;
+    float: right;
+    margin-top: 62px;
+}
+
+.contact-form h2 {
+    color: #3282C9;
+    margin-bottom: 30px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin: 10px;
+}
+
+.contact-form input {
+    margin: 10px;
+    padding: 5px;
+    width: 300px;
+}
+
+.contact-form textarea {
+    padding: 5px;
+    margin-top: 5px;
+    vertical-align: text-top;
+}
+
+.contact-form div {
+    margin-right: 440px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    margin: 20px 0;
+    color: white;
+    font-weight: 600;
+    background-color: #F19F31;
+    border: 1px solid #F19F31;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    color: #F19F31;
+    background-color: white;
+}
+
+/* End Contacts Page */
+
+
+/* Start Destinations Page */
+
+.destinations {
+    width: 60%;
+    float: right;
+    margin-top: 62px;
+}
+
+.destinations h2 {
+    color: #3282C9;
+}
+
+.destinations hr {
+    display: block;
+    border-width: 1px;
+    color: #181818;
+    width: 630px;
+}
+
+.destinations .dest1 div,
+.destinations .dest2 div {
+    width: 23%;
+    float: right;
+    margin: 0 0.5%;
+}
+
+.destinations .dest1 img,
+.destinations .dest2 img {
+    width: 100%;
+}
+
+.destinations .dest3 img {
+    width: 23%;
+    float: right;
+    margin-left: 10px;
+}
+
+.destinations .dest3 i {
+    color: #F19F31;
+    margin-top: 5px;
+}
+
+.img1::before {
+    content: 'جديد';
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgba(185, 0, 0, 0.7);
+    position: relative;
+    top: 106px;
+    left: 0px;
+}
+
+.img2::before {
+    content: 'جديد';
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgba(185, 0, 0, 0.7);
+    position: relative;
+    top: 28px;
+    left: -106px;
+}
+
+.img2::after {
+    content: 'الدولة';
+    display: inline-block;
+    padding: 2px 61px;
+    color: yellow;
+    background-color: rgba(34, 34, 34, 0.7);
+    position: relative;
+    top: -25px;
+    left: 0;
+}
+
+.img3::before {
+    content: 'جديد';
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgba(185, 0, 0, 0.7);
+    position: relative;
+    top: 28px;
+    right: 0;
+}
+
+.img3::after {
+    content: 'الدولة';
+    display: inline-block;
+    padding: 2px 61px;
+    color: yellow;
+    background-color: rgba(34, 34, 34, 0.7);
+    position: relative;
+    top: -26px;
+    right: 0;
+}
+
+.img4::before {
+    content: 'جديد';
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgba(185, 0, 0, 0.7);
+    position: relative;
+    top: 70px;
+    right: 0;
+}
+
+.img4::after {
+    content: 'الدولة';
+    display: inline-block;
+    padding: 2px 61px;
+    color: yellow;
+    background-color: rgba(34, 34, 34, 0.7);
+    position: relative;
+    top: -110px;
+    right: 0px;
+}
+
+.img5::before {
+    content: 'جديد';
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgba(185, 0, 0, 0.7);
+    position: relative;
+    top: 28px;
+    left: 0;
+}
+
+.img5::after {
+    content: 'الدولة';
+    display: inline-block;
+    padding: 2px 39px;
+    color: yellow;
+    background-color: rgba(34, 34, 34, 0.7);
+    position: relative;
+    top: -106px;
+    left: -43px;
+}
+
+.img6 {
+    position: relative;
+    top: 28px;
+}
+
+.img7::before {
+    content: 'جديد';
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgba(185, 0, 0, 0.7);
+    position: relative;
+    top: 67px;
+    left: -106px;
+}
+
+.img8 {
+    position: relative;
+    top: 28px;
+}
+
+.img8::after {
+    content: 'الدولة';
+    display: inline-block;
+    padding: 2px 61px;
+    color: yellow;
+    background-color: rgba(34, 34, 34, 0.7);
+    position: relative;
+    top: -40px;
+    right: 0;
+}
+
+.dest3 {
+    margin-top: 20px;
+}
+
+/* End Destinations Page */
